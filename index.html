@@ -1,5 +1,44 @@
-<!DOCTYPE html>
-<html>
-<head><title>Mediciberg Home</title></head>
-<body><h1>Site is running.</h1></body>
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mediceberg Token</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;background:#f6fbff;color:#0b2545}
+    .card{max-width:820px;padding:28px;border-radius:14px;box-shadow:0 8px 30px rgba(11,37,69,0.08);background:white}
+    h1{margin:0 0 8px 0;font-size:26px}
+    p{margin:6px 0;color:#334155}
+    .meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+    .tag{padding:6px 10px;border-radius:8px;border:1px solid #e6eef9;font-size:13px}
+    img.logo{width:84px;height:84px;border-radius:12px;object-fit:cover}
+    .actions{margin-top:18px}
+    a.button{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;border:1px solid #0b63ff;color:#0b63ff}
+  </style>
+</head>
+<body>
+  <div class="card" role="main">
+    <div style="display:flex;gap:16px;align-items:center">
+      <img src="logo.png" alt="logo" class="logo" onerror="this.style.display='none'"/>
+      <div>
+        <h1>Mediceberg Token (MIB)</h1>
+        <p>مرحباً — هذه صفحة توضيحية لرمز Mediceberg على Pi Testnet. يمكن تعديل هذا النص بسهولة.</p>
+        <div class="meta">
+          <div class="tag">code: MIB</div>
+          <div class="tag">issuer: GDUD6OAX...ERPSE</div>
+          <div class="tag">شبكة: Pi Testnet</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <a class="button" href="https://mediceberg-token.netlify.app/.well-known/pi.toml" target="_blank" rel="noopener">تحقق من pi.toml</a>
+      <a class="button" href="https://mediceberg.github.io/" style="margin-left:10px" target="_blank" rel="noopener">عرض الموقع</a>
+    </div>
+
+    <hr style="margin:18px 0;border:none;border-top:1px solid #eef6ff"/>
+
+    <p><strong>ملاحظة تقنية:</strong> إن كان مشروعك مبنياً (React/Vue/etc) تحتاج رفع ملفات البناء داخل المجلد الذي تنشر منه (مثلاً `build/` أو `dist/`) أو ضبط إعدادات Netlify ليأخذ ذلك المجلد.</p>
+  </div>
+</body>
 </html>

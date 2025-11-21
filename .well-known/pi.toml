@@ -1,8 +1,8 @@
 [[CURRENCIES]]
-code = "MIB"
+code = "ICEBERG"
 issuer = "GDUD6OAXBWXCIEOJ4RB5Q4ABN3L757I3M3NKERPSECCENYVXJN6NCSR3"
 name = "Mediceberg Token"
-desc = "A Testnet token created by Mediciberg for Pi Network experimentation. Official Test Token for HIB community on PI Testnet. Total supply: 1000000 MIB"
+desc = "A Testnet token created by Mediciberg for Pi Network experimentation. Official Test Token for HIB community on PI Testnet. Total supply: 100000000 MIB"
 image = "https://mediceberg.github.io/.well-known/mib-logo.jpg"
 
 [DOCUMENTATION]
